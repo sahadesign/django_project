@@ -17,4 +17,33 @@
         <p class="article-content">{{ object.content }}</p>
         </div>
     </article>
+    <br>
+    <Button class="btn btn-outline-secondary"> 
+        <a href="{% url 'like_post' post.id %}">Like</a>
+    </Button>
+    <p>Likes: {{ object.total_likes }}</p>
+    <br>
+    <!--COMMENTS-->
+    <div>
+        <h2>Comments</h2>
+        {% if not post.comments.all %}
+            <div>
+                No Comments Yet! <a href="#"> Add Comment </a>
+                <br>
+            </div>
+        {% else %}
+        <a href="#"> Add Comment </a>
+            <br>
+            {% for comment in post.comments.all %}
+            <strong>
+                {{ comment.name }} - 
+                {{ comment.created_on }}
+            </strong> 
+            <br>
+                {{ comment.body }}
+            {% endfor %}             
+        {% endif %}
+        <br>
+    </div>
+    <br>
 {% endblock content %}
