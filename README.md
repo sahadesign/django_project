@@ -1,8 +1,13 @@
 # django_project 
 
-The website is currently down due to a error in deployment.☹️
+The website is currently down due to an error in deployment.☹️
+
+
 
 Here are some of the glimpses of our Blogging application.😀
+
+
+
 1. Blog Home Page
 
 ![image](https://user-images.githubusercontent.com/77962951/221364237-58a958c9-2c0d-4e1b-8cf5-485ab207aa6f.png)
