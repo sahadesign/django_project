@@ -1,10 +1,10 @@
 # django_project 
 
-The website is currently down due to an error in deployment.☹️
+The website is currently down due to an error in deployment.
 
 
 
-Here are some of the glimpses of our Blogging application.😀
+Here are some of the glimpses of our Blogging application.
 
 
 
@@ -28,7 +28,7 @@ Here are some of the glimpses of our Blogging application.😀
 
 ![image](https://user-images.githubusercontent.com/77962951/221364319-90b29aaa-eb3f-4a5b-8351-6f3965cf6801.png)
 
-6. Reset Password page
+6. Reset the Password page
 
 ![image](https://user-images.githubusercontent.com/77962951/221364393-05bb2147-47fb-4de3-9c28-f0f54d71ad9b.png)
 
